@@ -34,21 +34,41 @@ public class Robot {
         this.direction = direction;
     }
 
-    public void changeDirection(String turn){
-        // if turn == L
-        // case when N change to W
-        //      when E change to N
-        //      when S change to E
-        //      when W change to S
-        // if turn == R
-        // case when N change to E
-        //      when E change to S
-        //      when S change to W
-        //      when W change to N
+    public void turnLeft() {
+        switch (direction) {
+            case "N":
+                direction = "W";
+                break;
+            case "E":
+                direction = "N";
+                break;
+            case "S":
+                direction = "E";
+                break;
+            case "W":
+                direction = "S";
+                break;
+        }
     }
 
-    public void changePosition(){
-        // if instruction == F
+    public void turnRight() {
+        switch (direction) {
+            case "N":
+                direction = "E";
+                break;
+            case "E":
+                direction = "S";
+                break;
+            case "S":
+                direction = "W";
+                break;
+            case "W":
+                direction = "N";
+                break;
+        }
+    }
+
+    public void moveForward(){
         // when direction == N
         //      y++
         // when direction == E

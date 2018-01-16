@@ -22,4 +22,20 @@ public class RobotTest {
         assertEquals(3, robot2.getRobotY());
     }
 
+    @Test
+    public void robotCanTurnLeft(){
+        robot1.turnLeft();
+        robot2.turnLeft();
+        assertEquals("W", robot1.getDirection());
+        assertEquals("N", robot2.getDirection());
+    }
+
+    @Test
+    public void robotCanTurnRight(){
+        robot1.turnRight();
+        robot2.turnRight();
+        assertEquals("E", robot1.getDirection());
+        assertEquals("S",robot2.getDirection());
+    }
+
 }
