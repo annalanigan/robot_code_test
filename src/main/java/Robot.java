@@ -59,4 +59,9 @@ public class Robot {
         //      x++
     }
 
+    // public String getCombined(){
+        // get all coordinates back in a string
+        // return String result;
+    // }
+
 }
