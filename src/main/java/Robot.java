@@ -4,19 +4,43 @@ public class Robot {
     private int robotY;
     private String direction;
 
-    public void Robot(int inputX, int inputY, String dir) {
+    public Robot(int inputX, int inputY, String dir) {
         this.robotX = inputX;
         this.robotY = inputY;
         this.direction = dir;
     }
 
-    public void changeDirection(){
-        // if instruction == L
+    public int getRobotX() {
+        return robotX;
+    }
+
+    public void setRobotX(int robotX) {
+        this.robotX = robotX;
+    }
+
+    public int getRobotY() {
+        return robotY;
+    }
+
+    public void setRobotY(int robotY) {
+        this.robotY = robotY;
+    }
+
+    public String getDirection() {
+        return direction;
+    }
+
+    public void setDirection(String direction) {
+        this.direction = direction;
+    }
+
+    public void changeDirection(String turn){
+        // if turn == L
         // case when N change to W
         //      when E change to N
         //      when S change to E
         //      when W change to S
-        // if instruction == R
+        // if turn == R
         // case when N change to E
         //      when E change to S
         //      when S change to W
