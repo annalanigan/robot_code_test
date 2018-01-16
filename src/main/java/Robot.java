@@ -1,10 +1,10 @@
 public class Robot {
 
-    private int robotX;
-    private int robotY;
+    private Integer robotX;
+    private Integer robotY;
     private String direction;
 
-    public Robot(int inputX, int inputY, String dir) {
+    public Robot(Integer inputX, Integer inputY, String dir) {
         this.robotX = inputX;
         this.robotY = inputY;
         this.direction = dir;
@@ -14,7 +14,7 @@ public class Robot {
         return robotX;
     }
 
-    public void setRobotX(int robotX) {
+    public void setRobotX(Integer robotX) {
         this.robotX = robotX;
     }
 
@@ -22,7 +22,7 @@ public class Robot {
         return robotY;
     }
 
-    public void setRobotY(int robotY) {
+    public void setRobotY(Integer robotY) {
         this.robotY = robotY;
     }
 
@@ -85,9 +85,9 @@ public class Robot {
         }
     }
 
-    // public String getCombined(){
-        // get all coordinates back in a string
-        // return String result;
-    // }
+     public String getCombinedCoordinates(){
+        String result = robotX.toString() + " " + robotY.toString() + " " + direction;
+        return result;
+     }
 
 }

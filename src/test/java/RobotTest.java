@@ -68,4 +68,22 @@ public class RobotTest {
         assertEquals(0, robot1.getRobotX());
     }
 
+    @Test
+    public void canGetCombinedCoordinates__1(){
+        assertEquals("1 1 N", robot1.getCombinedCoordinates());
+    }
+
+    @Test
+    public void canGetCombinedCoordinates__2(){
+        assertEquals("2 3 E", robot2.getCombinedCoordinates());
+    }
+
+    @Test
+    public void canTurnMoveAndReturn(){
+        robot1.turnRight();
+        robot1.moveForward();
+        robot1.moveForward();
+        assertEquals("3 1 E", robot1.getCombinedCoordinates());
+    }
+
 }

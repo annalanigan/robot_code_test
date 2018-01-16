@@ -37,24 +37,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Robot.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Robot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="82" column="24" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+            <state relative-caret-position="242">
+              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding>
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,13 +92,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RobotTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RobotTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RobotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="51" column="4" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="44" />
+            <state relative-caret-position="332">
+              <caret line="85" column="61" lean-forward="false" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1758#1759#0" expanded="true" />
+                <element signature="e#1828#1829#0" expanded="true" />
+                <element signature="e#1887#1888#0" expanded="true" />
+                <element signature="e#1957#1958#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -412,8 +416,8 @@
         <option value="$PROJECT_DIR$/src/test/java/MarsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mars.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mission.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RobotTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Robot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RobotTest.java" />
       </list>
     </option>
   </component>
@@ -506,7 +510,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in RobotCodeTest_test">
+  <component name="RunManager" selected="JUnit.RobotTest.canTurnMoveAndReturn">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -548,14 +552,34 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MarsTest.canBuildYAxis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RobotTest.canGetCombinedCoordinates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="RobotCodeTest_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MarsTest" />
-      <option name="METHOD_NAME" value="canBuildYAxis" />
+      <option name="MAIN_CLASS_NAME" value="RobotTest" />
+      <option name="METHOD_NAME" value="canGetCombinedCoordinates" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="RobotTest.canTurnMoveAndReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="RobotCodeTest_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RobotTest" />
+      <option name="METHOD_NAME" value="canTurnMoveAndReturn" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -596,26 +620,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RobotTest" />
       <option name="METHOD_NAME" value="robotCanTurnRight" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="RobotTest.robotHasCoordinates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="RobotCodeTest_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RobotTest" />
-      <option name="METHOD_NAME" value="robotHasCoordinates" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -689,19 +693,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MarsTest.canBuildYAxis" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in RobotCodeTest_test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RobotTest.robotHasCoordinates" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RobotTest.robotCanTurnLeft" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RobotTest.robotCanTurnRight" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in RobotCodeTest_test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RobotTest.robotCanTurnLeft" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RobotTest.robotCanTurnRight" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RobotTest.canGetCombinedCoordinates" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RobotTest.canTurnMoveAndReturn" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in RobotCodeTest_test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RobotTest.robotCanTurnRight" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RobotTest.robotCanTurnLeft" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RobotTest.robotHasCoordinates" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MarsTest.canBuildYAxis" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RobotTest.canTurnMoveAndReturn" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in RobotCodeTest_test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RobotTest.canGetCombinedCoordinates" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RobotTest.robotCanTurnRight" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RobotTest.robotCanTurnLeft" />
       </list>
     </recent_temporary>
   </component>
@@ -722,9 +726,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_RobotCodeTest_test - 2018.01.16 at 10h 56m 47s.xml">
-      <configuration name="All in RobotCodeTest_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_RobotCodeTest_test - 2018.01.16 at 19h 52m 25s.xml">
       <configuration name="All in RobotCodeTest_test" configurationId="JUnit" />
     </history-entry>
@@ -733,6 +734,15 @@
     </history-entry>
     <history-entry file="All_in_RobotCodeTest_test - 2018.01.16 at 21h 16m 42s.xml">
       <configuration name="All in RobotCodeTest_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_RobotCodeTest_test - 2018.01.16 at 21h 23m 57s.xml">
+      <configuration name="All in RobotCodeTest_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RobotTest_canGetCombinedCoordinates - 2018.01.16 at 21h 23m 11s.xml">
+      <configuration name="RobotTest.canGetCombinedCoordinates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RobotTest_canTurnMoveAndReturn - 2018.01.16 at 21h 25m 51s.xml">
+      <configuration name="RobotTest.canTurnMoveAndReturn" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RobotTest_robotCanTurnLeft - 2018.01.16 at 20h 51m 09s.xml">
       <configuration name="RobotTest.robotCanTurnLeft" configurationId="JUnit" />
@@ -743,18 +753,13 @@
     <history-entry file="RobotTest_robotCanTurnRight - 2018.01.16 at 20h 54m 50s.xml">
       <configuration name="RobotTest.robotCanTurnRight" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RobotTest_robotHasCoordinates - 2018.01.16 at 12h 37m 33s.xml">
-      <configuration name="RobotTest.robotHasCoordinates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RobotTest_robotHasCoordinates - 2018.01.16 at 12h 38m 47s.xml">
-      <configuration name="RobotTest.robotHasCoordinates" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RobotTest_robotHasCoordinates - 2018.01.16 at 12h 39m 15s.xml">
       <configuration name="RobotTest.robotHasCoordinates" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -764,7 +769,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -843,33 +848,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RobotTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="51" column="4" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="44" />
+        <state relative-caret-position="242">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Robot.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/RobotTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="82" column="24" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        <state relative-caret-position="332">
+          <caret line="85" column="61" lean-forward="false" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
           <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1758#1759#0" expanded="true" />
+            <element signature="e#1828#1829#0" expanded="true" />
+            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
           </folding>
         </state>
       </provider>
