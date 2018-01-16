@@ -37,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Robot.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Robot.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="64" column="21" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+            <state relative-caret-position="123">
+              <caret line="82" column="24" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
               <folding>
                 <element signature="e#280#281#0" expanded="true" />
                 <element signature="e#309#310#0" expanded="true" />
@@ -92,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RobotTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RobotTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RobotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+            <state relative-caret-position="666">
+              <caret line="51" column="4" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -506,7 +506,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RobotTest.robotCanTurnRight">
+  <component name="RunManager" selected="JUnit.All in RobotCodeTest_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -697,9 +697,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RobotTest.robotCanTurnRight" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RobotTest.robotCanTurnLeft" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in RobotCodeTest_test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in RobotCodeTest_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RobotTest.robotCanTurnRight" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RobotTest.robotCanTurnLeft" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.RobotTest.robotHasCoordinates" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.MarsTest.canBuildYAxis" />
       </list>
@@ -728,11 +728,11 @@
     <history-entry file="All_in_RobotCodeTest_test - 2018.01.16 at 19h 52m 25s.xml">
       <configuration name="All in RobotCodeTest_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsTest_canBuildXAxis - 2018.01.16 at 10h 49m 49s.xml">
-      <configuration name="MarsTest.canBuildXAxis" configurationId="JUnit" />
+    <history-entry file="All_in_RobotCodeTest_test - 2018.01.16 at 21h 15m 10s.xml">
+      <configuration name="All in RobotCodeTest_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsTest_canBuildYAxis - 2018.01.16 at 10h 55m 30s.xml">
-      <configuration name="MarsTest.canBuildYAxis" configurationId="JUnit" />
+    <history-entry file="All_in_RobotCodeTest_test - 2018.01.16 at 21h 16m 42s.xml">
+      <configuration name="All in RobotCodeTest_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RobotTest_robotCanTurnLeft - 2018.01.16 at 20h 51m 09s.xml">
       <configuration name="RobotTest.robotCanTurnLeft" configurationId="JUnit" />
@@ -755,7 +755,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -844,10 +843,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RobotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="51" column="4" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="64" column="21" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        <state relative-caret-position="123">
+          <caret line="82" column="24" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
           <folding>
             <element signature="e#280#281#0" expanded="true" />
             <element signature="e#309#310#0" expanded="true" />
@@ -861,16 +870,6 @@
             <element signature="e#590#591#0" expanded="true" />
             <element signature="e#640#641#0" expanded="true" />
             <element signature="e#682#683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RobotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

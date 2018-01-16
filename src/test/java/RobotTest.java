@@ -38,4 +38,34 @@ public class RobotTest {
         assertEquals("S",robot2.getDirection());
     }
 
+    @Test
+    public void robotCanMove__N(){
+        robot1.moveForward();
+        assertEquals(2, robot1.getRobotY());
+        assertEquals(1, robot1.getRobotX());
+    }
+
+    @Test
+    public void robotCanMove__E(){
+        robot2.moveForward();
+        assertEquals(3, robot2.getRobotY());
+        assertEquals(3, robot2.getRobotX());
+    }
+
+    @Test
+    public void robotCanMove__S(){
+        robot2.turnRight();
+        robot2.moveForward();
+        assertEquals(2, robot2.getRobotY());
+        assertEquals(2, robot2.getRobotX());
+    }
+
+    @Test
+    public void robotCanMove__W(){
+        robot1.turnLeft();
+        robot1.moveForward();
+        assertEquals(1, robot1.getRobotY());
+        assertEquals(0, robot1.getRobotX());
+    }
+
 }

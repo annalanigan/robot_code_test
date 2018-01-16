@@ -69,14 +69,20 @@ public class Robot {
     }
 
     public void moveForward(){
-        // when direction == N
-        //      y++
-        // when direction == E
-        //      x--
-        // when direction == S
-        //      y--
-        // when direction == W
-        //      x++
+        switch (direction) {
+            case "N":
+                robotY++;
+                break;
+            case "E":
+                robotX++;
+                break;
+            case "S":
+                robotY--;
+                break;
+            case "W":
+                robotX--;
+                break;
+        }
     }
 
     // public String getCombined(){
