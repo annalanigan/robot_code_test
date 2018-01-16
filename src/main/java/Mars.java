@@ -5,45 +5,36 @@ public class Mars {
     private int x;
     private int y;
     private ArrayList<Integer> inner;
+    private ArrayList<ArrayList<Integer>> outer;
 
     public Mars(int x, int y){
         this.x = x;
         this.y = y;
         this.inner = new ArrayList<Integer>();
-    }
-
-    public int getX() {
-        return x;
-    }
-
-    public void setX(int x) {
-        this.x = x;
-    }
-
-    public int getY() {
-        return y;
-    }
-
-    public void setY(int y) {
-        this.y = y;
-    }
-
-    public ArrayList<Integer> getInner() {
-        return inner;
-    }
-
-    public void setInner(ArrayList<Integer> inner) {
-        this.inner = inner;
+        this.outer = new ArrayList<ArrayList<Integer>>();
     }
 
     public int getSizeOfInner(){
         return inner.size();
     }
 
+    public int getSizeOfOuter(){
+        return outer.size();
+    }
+
     public void buildXAxis(){
         int i = 0;
         while (i <= x){
             inner.add(i);
+            i++;
+        }
+    }
+
+    public void buildMars(){
+        buildXAxis();
+        int i = 0;
+        while (i <= y){
+            outer.add(inner);
             i++;
         }
     }

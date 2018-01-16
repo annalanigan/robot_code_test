@@ -20,4 +20,11 @@ public class MarsTest {
         assertEquals(6, mars1.getSizeOfInner());
     }
 
+    @Test
+    public void canBuildMars(){
+        mars2.buildMars();
+        assertEquals(3, mars2.getSizeOfInner());
+        assertEquals(5, mars2.getSizeOfOuter());
+    }
+
 }
