@@ -11,7 +11,7 @@ public class Mission {
      private String instructions3;
      private ArrayList<String> lostCoords;
 
-    public void Mission(){
+    public Mission(){
         myPlanet = new Mars(5, 3);
         robot1 = new Robot(1, 1, "E");
         robot2 = new Robot(3, 2, "N");
@@ -22,13 +22,24 @@ public class Mission {
         lostCoords = new ArrayList<>();
     }
 
+    public String robot1Mission(){
+        return robot1.receiveInstructionList(instructions1);
+    }
+
+    public String robot2Mission(){
+        return robot2.receiveInstructionList(instructions2);
+    }
+
+    public String robot3Mission(){
+        return robot3.receiveInstructionList(instructions3);
+    }
+
     //public String or Boolean lostRobot(Robot robot){
-        // if (x || y for Robot) is bigger than (x || y for planet)
-        // add coordinates as a sting to the lostCoords ArrayList
-        // Return String of coodrs + " LOST"
+    // if (x || y for Robot) is bigger than (x || y for planet)
+    // add coordinates as a sting to the lostCoords ArrayList
+    // Return String of coodrs + " LOST"
     //}
 
-    // public String
 
 
 
