@@ -37,16 +37,16 @@ public class Robot {
     public void turnLeft() {
         switch (direction) {
             case "N":
-                direction = "W";
+                setDirection("W");
                 break;
             case "E":
-                direction = "N";
+                setDirection("N");
                 break;
             case "S":
-                direction = "E";
+                setDirection("E");
                 break;
             case "W":
-                direction = "S";
+                setDirection("S");
                 break;
         }
     }
@@ -54,16 +54,16 @@ public class Robot {
     public void turnRight() {
         switch (direction) {
             case "N":
-                direction = "E";
+                setDirection("E");
                 break;
             case "E":
-                direction = "S";
+                setDirection("S");
                 break;
             case "S":
-                direction = "W";
+                setDirection("W");
                 break;
             case "W":
-                direction = "N";
+                setDirection("N");
                 break;
         }
     }
@@ -85,9 +85,31 @@ public class Robot {
         }
     }
 
-     public String getCombinedCoordinates(){
+    public String receiveInstructionList(String instruction) {
+        for (char item : instruction.toCharArray()) {
+            receiveInstruction(item);
+        }
+        return getCombinedCoordinates();
+    }
+
+    public void receiveInstruction(char command){
+        switch(command) {
+            case 'F':
+                moveForward();
+                break;
+            case 'R':
+                turnRight();
+                break;
+            case 'L':
+                turnLeft();
+                break;
+        }
+    }
+
+    public String getCombinedCoordinates(){
         String result = robotX.toString() + " " + robotY.toString() + " " + direction;
         return result;
      }
+
 
 }

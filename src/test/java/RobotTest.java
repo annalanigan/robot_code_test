@@ -86,4 +86,30 @@ public class RobotTest {
         assertEquals("3 1 E", robot1.getCombinedCoordinates());
     }
 
+    @Test
+    public void canReactToListOfInstructions__1(){
+        assertEquals("1 2 N", robot1.receiveInstructionList("RFRFRFRFF"));
+    }
+
+    @Test
+    public void canReactToListOfInstructions__2(){
+        assertEquals("5 1 S", robot2.receiveInstructionList("FFFRFF"));
+    }
+
+    @Test
+    public void canReactToListOfInstructions__3(){
+        assertEquals("1 1 S", robot1.receiveInstructionList("LL"));
+    }
+
+    @Test
+    public void canReactToListOfInstructions__4(){
+        assertEquals("0 3 W", robot1.receiveInstructionList("FRFLFLFF"));
+    }
+
+    @Test
+    public void canReactToListOfInstructions__5(){
+        assertEquals("1 1 S", robot2.receiveInstructionList("FRFFRFFL"));
+    }
+
+
 }
